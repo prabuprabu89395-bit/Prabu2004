@@ -1,0 +1,169 @@
+/* General Styles */
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+}
+
+header {
+
+  background: #333;
+
+  color: white;
+
+  padding: 10px 0;
+
+  text-align: center;
+
+}
+
+header ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+header ul li {
+
+  display: inline;
+
+  margin: 0 15px;
+
+}
+
+header ul li a {
+
+  color: white;
+
+  text-decoration: none;
+
+}
+
+.intro {
+
+  text-align: center;
+
+  padding: 50px;
+
+  background: #f4f4f4;
+
+}
+
+.intro h1 span {
+
+  color: #0077cc;
+
+}
+
+section {
+
+  padding: 30px;
+
+  text-align: center;
+
+}
+
+#about img {
+
+  width: 200px;
+
+  border-radius: 50%;
+
+  margin: 15px 0;
+
+}
+
+ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+ul li {
+
+  margin: 8px 0;
+
+}
+
+/* Resume Button */
+
+.btn {
+
+  display: inline-block;
+
+  padding: 10px 15px;
+
+  background: #0077cc;
+
+  color: white;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+}
+
+/* Contact Form */
+
+form {
+
+  margin-top: 20px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  max-width: 400px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+form input, form textarea, form button {
+
+  margin: 8px 0;
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+}
+
+form button {
+
+  background: #0077cc;
+
+  color: white;
+
+  cursor: pointer;
+
+}
+
+form button:hover {
+
+  background: #005fa3;
+
+}
+
+#formMessage {
+
+  margin-top: 10px;
+
+  font-weight: bold;
+
+  color: green;
+
+}
